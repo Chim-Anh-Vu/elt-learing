@@ -1,0 +1,20 @@
+{
+  "name": "Activation",
+  "version": "1.0.0",
+  "description": "ETL first project",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "build": {
+    "win": {
+      "requestedExecutionLevel": "highestAvailable"
+    }
+  },
+  "author": "anhvt",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^20.1.0",
+    "electron-packager": "^16.0.0"
+  }
+}
